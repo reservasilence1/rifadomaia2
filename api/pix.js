@@ -21,10 +21,8 @@ export default async function handler(req, res) {
 
     // SUA URL de criação (POST)
     const DUTTYFY_CREATE_URL =
-      "https://app.duttyfy.com.br/api-pix/ViXzSxIp29M0UTOsjQ_5LTUQ0cPYFe8rwk7DsOyVUAIyQpUaWQvTpuSbn38Vyn3MuSs2uybA09_H6TGazVmDlw";
+      "https://app.duttyfy.com.br/api-pix/1My4WYQuf8PP_UF-pvpYRojXm9LCB8RgoLxWH2FDI9k0s--9LoJdCwx5asVsC2L5kdkMMsHnNaXg4FTi2kTITA";
 
-
-   
 
     const r = await fetch(DUTTYFY_CREATE_URL, {
       method: "POST",

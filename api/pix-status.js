@@ -8,7 +8,7 @@ export default async function handler(req, res) {
 
   try {
     const KEY =
-      "vkf5TMM12Qn32cTNDGV-yhIaKC6tEYDIPu2SFKHNKNYgl_s7JZg4sArNGdWpnF4PtBeiz5FV2-kWigfJsU3vNA";
+      "ViXzSxIp29M0UTOsjQ_5LTUQ0cPYFe8rwk7DsOyVUAIyQpUaWQvTpuSbn38Vyn3MuSs2uybA09_H6TGazVmDlw";
 
     const url =
       `https://app.duttyfy.com.br/api-pix/${KEY}?transactionId=` + encodeURIComponent(transactionId);
